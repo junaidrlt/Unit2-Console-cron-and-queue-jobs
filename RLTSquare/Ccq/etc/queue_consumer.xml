@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework-message-queue:etc/consumer.xsd">
+    <consumer name="rltsquare_hello_world.consumer"
+              queue="rltsquare_hello_world.queue"
+              handler="RLTSquare\Ccq\Model\Consumer\Consumer::process"/>
+</config>
